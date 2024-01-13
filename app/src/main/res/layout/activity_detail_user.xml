@@ -51,12 +51,13 @@
             android:id="@+id/tv_followers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="32dp"
             android:gravity="center_vertical"
             android:textColor="@color/black"
             android:textSize="14sp"
             app:drawableStartCompat="@drawable/ic_people"
-            tools:text="9 followers" />
+            android:drawablePadding="8dp"
+            tools:text="9  followers" />
 
         <TextView
             android:id="@+id/tv_following"
@@ -66,7 +67,8 @@
             android:textColor="@color/black"
             android:textSize="14sp"
             app:drawableStartCompat="@drawable/ic_people"
-            tools:text="9 following" />
+            android:drawablePadding="8dp"
+            tools:text="9  following" />
 
     </LinearLayout>
 

@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
                 return@setOnKeyListener false
             }
         }
+        searchUser()
 
         viewModel.getSearchUsers().observe(this, {
             if (it!=null){
